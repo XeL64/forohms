@@ -1,7 +1,7 @@
 # forohms
 Forum (sens littéral/place_public du terme) public libre insubmersible incontrôlable
 
-## Concept (si pas déjà existant) :
+##### Concept (si pas déjà existant) :
 * ui/interface multilangues (esperanto + autres)
 * forum like
 * blog like
@@ -9,7 +9,7 @@ Forum (sens littéral/place_public du terme) public libre insubmersible incontr�
 * stackoverflow like
 * sphère public seulement, rien de privé (voir possibilité whisp/mp pour le privé)
 
-## Gestion utilisateur :
+##### Gestion utilisateur :
  * Pas d'admin
  
  * 2 profiles utilisateurs :
@@ -23,7 +23,7 @@ Forum (sens littéral/place_public du terme) public libre insubmersible incontr�
     * inscrit et appartenance communauté : poids 2 partout, poids 4 dans sa(ses) communauté(s)
     * inscrit et appartenance communauté public + communauté "privé": poids 2 partout, poids 4 dans sa communauté, poids 8 dans sa communauté privé (seule la comunauté privé l'est, le contenu est public : tout est lisible).
 
-## Notion communauté public/privé:
+##### Notion communauté public/privé:
 * grandes catégories (à déterminer par les inscrits) : communauté public (vote pour passer communauté privé à public)
 * création d'une communauté privé au sein de public : rubrique à pinpin : communauté privé.
 * exemple 1:
@@ -40,13 +40,13 @@ Forum (sens littéral/place_public du terme) public libre insubmersible incontr�
 
 * adhésion communauté lambda : auto adhésion communauté(s) parente(s)
 
-## Contenu :
+##### Contenu :
 * tout est lisible : pas de suppression (masquage avec possibilité de relecture, gestion particulière pour le spam à déterminer)
 
-## Automatisme : 
+##### Automatisme : 
 * éviter le spam (concaténisation des spams pour réduire leur visibilité + vote communauté pour sortir un spam)
 
-## Technique :
+##### Technique :
 * hébergement (à creuser ou pas) :
     * tahoe-LAFS (même contenu partout, point d'entrée gateway différent)
     * propagation / réplication / synchronisation (à vérifier : spec tahoe-LAFS)
