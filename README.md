@@ -16,10 +16,10 @@ sphère public seulement, rien de privé (voir possibilité whisp/mp pour le pri
  communauté(s)/groupe(s) dans la communauté globale (induit poids sur les votes, double/indice au sein d'une communauté)
  sous appartenance : x2/incide n+1 poids
  ex : 
-     non inscrit : poids 1 partout
-     inscrit : poids 2 partout
-     inscrit et appartenance communauté : poids 2 partout, poids 4 dans sa(ses) communauté(s)
-     inscrit et appartenance communauté public + communauté "privé": poids 2 partout, poids 4 dans sa communauté, poids 8 dans sa communauté privé (seule la comunauté privé l'est, le contenu est public : tout est lisible).
+     * non inscrit : poids 1 partout
+     * inscrit : poids 2 partout
+     * inscrit et appartenance communauté : poids 2 partout, poids 4 dans sa(ses) communauté(s)
+     * inscrit et appartenance communauté public + communauté "privé": poids 2 partout, poids 4 dans sa communauté, poids 8 dans sa communauté privé (seule la comunauté privé l'est, le contenu est public : tout est lisible).
 
 ## Notion communauté public/privé:
 grandes catégories (à déterminer par les inscrits) : communauté public (vote pour passer communauté privé à public)
